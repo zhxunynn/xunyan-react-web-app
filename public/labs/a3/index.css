@@ -320,6 +320,52 @@ p#id-selector-2 {
     }
 }
 
+.animation-keyframes-mine {
+    position: relative;
+    top: 0px;
+    animation-duration: 7s;
+    animation-name: slidein-mine;
+    width: 400px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slidein-mine {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        color: black;
+    }
+    50% {
+        position: relative;
+        top: -200px;
+        font-size: 300%;
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        color: white;
+    }
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        color: white;
+    }
+}
+
 .flex-container {
     border-width: 5px;
     border-color: black;
