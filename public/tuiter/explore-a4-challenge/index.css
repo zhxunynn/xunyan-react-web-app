@@ -1,11 +1,11 @@
-.wd-nav-icon {
+.wd-override-nav-icon {
     width: 24px;
     height: 24px;
     margin-bottom: 3px;
     margin-right: 10px;
 }
 
-.wd-search-bar-icon {
+.wd-override-search-bar-icon {
     width: 24px;
     height: 24px;
 }
