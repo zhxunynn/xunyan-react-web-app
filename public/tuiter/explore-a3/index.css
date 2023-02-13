@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-rounded-corners-all-around-small {
+    border-radius: 10px;
+}
+
+.wd-header-container {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wd-input-box {
+    margin-left: 16px;
+    background-color: gray;
+    max-width: 80%;
+    flex: 1;
+    height: 40px;
+    align-content: center;
+}
+
+.wd-input-text {
+    background: transparent;
+    height: 40px;
+    border:none;
+    outline: none;
+    margin-left: 40px;
+    color: white;
+}
+
+#text-field-search-tuiter::placeholder {
+    color: lightgray;
+}
+
+.wd-header-configure-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.wd-explore-main-frame {
+    border-style: groove;
+    border-width: 1px;
+    border-color: lightgray;
+    width: 700px;
+}
+
+.wd-header-menu {
+    padding: 16px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wd-header-menu-bold-text {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    color:rgb(29,161,242);
+}
+
+.wd-header-menu-bold {
+    width: 50px;
+    height: 2px;
+    margin-top: 5px;
+    border-style: solid;
+    color:rgb(29,161,242);
+    background-color:rgb(29,161,242);
+    border-radius: 10px;
+    align-self: center;
+}
+
+.wd-header-menu-component {
+    color: rgb(110, 118, 125);
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.wd-suggested-post {
+    padding: 16px;
+    font-size: 13px;
+    color: rgb(110,118,125);
+    max-width: 70%;
+}
+
+.wd-suggest-post-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-suggest-post-icon {
+    width: 24px;
+    height: 24px;
+    margin: 16px;
+}
+
+.wd-suggest-post-image {
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+}
+
+.wd-suggest-post-frame {
+    border-width: 1px;
+    color: lightgray;
+    border-top-style: groove;
+}
