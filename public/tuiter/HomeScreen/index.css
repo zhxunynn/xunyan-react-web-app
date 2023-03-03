@@ -1,0 +1,22 @@
+.wd-override-nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+
+
+.list-group-item.active {
+    font-weight: bold;
+}
+
+.wd-font-default {
+    color: rgb(70, 89, 101);
+}
+
+.wd-follow-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 3px;
+}
+

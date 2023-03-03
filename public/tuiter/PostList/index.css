@@ -1,0 +1,144 @@
+body {
+    font-family: "Helvetica";
+}
+
+.wd-flex-main {
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: groove;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.wd-flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 16px;
+}
+
+.wd-flex-header-title-username-container {
+    flex-direction: column;
+}
+
+.wd-flex-header-title {
+    margin-top: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-flex-header-username {
+    color: gray;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.wd-flex-header-icon {
+    width: 40px;
+    height: 20px;
+    margin-right: 16px;
+}
+
+.wd-flex-content-all {
+    border-top-style: groove;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+.wd-flex-content-main {
+    flex-direction: column;
+    flex: auto;
+    margin-left: 12px;
+}
+
+.wd-flex-content-avatar {
+    width: 48px;
+    height: 48px;
+}
+
+.wd-flex-content-title {
+    font-size: 15px;
+    padding: 12px 0 0 12px;
+}
+
+.wd-flex-content-title-handle-date {
+    color: gray;
+}
+.wd-flex-content-title-icon {
+    width: 24px;
+    height: 24px;
+}
+.wd-flex-content-post {
+    font-size: 15px;
+    color: white;
+    max-width: 506px;
+    padding-left: 12px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+
+.wd-post-card {
+    max-width: 504px;
+    margin: 0;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: groove;
+    border-radius: 5%;
+}
+
+.wd-flex-content-image {
+    max-width: 504px;
+    max-height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: groove;
+    border-width: 1px;
+}
+
+.wd-flex-content-article {
+    border-width: 1px;
+    border-style: groove;
+    border-top-style: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    max-width: 504px;
+    margin-top: -5px;
+}
+.wd-flex-content-article-title {
+    font-size: 15px;
+    padding: 12px 12px 0;
+    color: white;
+    font-weight: bold;
+}
+.wd-flex-content-article-content {
+    font-size: 15px;
+    padding: 0 12px 12px;
+    color: gray;
+}
+.wd-flex-content-article-react {
+    margin: 12px 0 12px 0;
+    padding:0;
+    justify-content: space-between;
+}
+.wd-flex-content-react-component {
+    display: flex;
+    width: auto;
+    height: 18px;
+    align-items: center;
+}
+.wd-flex-content-react-icon {
+    width: 24px;
+    height: 24px;
+}
+.wd-flex-content-react-number {
+    margin-left: 12px;
+    font-size: 12px;
+    color: gray;
+}
